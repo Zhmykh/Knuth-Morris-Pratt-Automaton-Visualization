@@ -1,0 +1,59 @@
+node {
+    text-size: 20px;
+    fill-color: white;
+    size: 30px;
+    stroke-mode: plain;
+    stroke-color: black;
+    stroke-width: 3px;
+    text-offset: 0px, -7px;
+}
+
+node.supplementary {
+    text-size: 16px;
+    size: 0px;
+    fill-color: rgba(0, 0, 0, 0);
+    shape: freeplane;
+    text-offset: 0px, -18px;
+    stroke-width: 0px;
+}
+
+node.terminal {
+    stroke-width: 7px;
+}
+
+node.active {
+    stroke-color: #ff5900;
+    text-color: #ff5900;
+}
+
+node.previous {
+    stroke-color: green;
+    text-color: green;
+}
+
+edge {
+    text-size: 16px;
+    shape: freeplane;
+    arrow-shape: arrow;
+    arrow-size: 15px, 6px;
+}
+
+edge.forward {
+}
+
+edge.loop {
+    text-offset: 40px, -90px;
+}
+
+edge.back1 {
+}
+
+edge.back2 {
+
+}
+
+edge.active {
+    size: 3px;
+    fill-color: #ff5900;
+    text-color: #ff5900;
+}
